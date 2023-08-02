@@ -101,12 +101,14 @@ const NavBar = () => {
                         Github <FaGithub size={30}/>
                     </a>
                 </li>
-                <li className='w-[160px] h-[60px] flex justify-between justify-items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-                    <a  className='font-bold flex justify-between items-center w-full text-gray-300'
-                    href='contact'>
-                        Email <HiOutlineMail size={30}/>
-                    </a>
-                </li>
+                <Link activeClass="active" to="contact" smooth={true} duration={500}>
+                    <li className='w-[160px] h-[60px] flex justify-between justify-items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
+                        <a  className='font-bold flex justify-between items-center w-full text-gray-300'
+                        href='contact'>
+                            Email <HiOutlineMail size={30}/>
+                        </a>
+                    </li>
+                </Link>
                 <li className='w-[160px] h-[60px] flex justify-between justify-items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
                     <a  className='font-bold flex justify-between items-center w-full text-gray-300'
                     href='' onClick={handleDownload}>

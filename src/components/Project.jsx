@@ -39,7 +39,7 @@ const Project = () => {
                                 Portfolio Website
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href='https://github.com/tranjas/Husky-Map'>
+                                <a href='https://github.com/tranjas/Portfolio-Website'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>GitHub</button>
                                 </a>
                             </div>
@@ -55,7 +55,7 @@ const Project = () => {
                                 Snake and Apples
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href='https://github.com/tranjas/Husky-Map'>
+                                <a href='https://github.com/tranjas/Snake-and-Apples'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>GitHub</button>
                                 </a>
                             </div>
@@ -71,7 +71,7 @@ const Project = () => {
                                 Audio Visualizer
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href='https://github.com/tranjas/Husky-Map'>
+                                <a href='https://github.com/tranjas/Audio-Visualizer'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>GitHub</button>
                                 </a>
                             </div>
