@@ -1,5 +1,8 @@
 import React from 'react'
 import Map from '../assets/Map.jpg'
+import Portfolio from '../assets/Portfolio.png'
+import Snake from '../assets/Snakes.png'
+import Audio from '../assets/Audio.png'
 
 const Project = () => {
   return (
@@ -28,7 +31,7 @@ const Project = () => {
                     </div>
 
                     <div 
-                    style={{backgroundImage: `url(${Map})`}} 
+                    style={{backgroundImage: `url(${Portfolio})`}} 
                     className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
@@ -44,7 +47,7 @@ const Project = () => {
                     </div>
 
                     <div
-                    style={{backgroundImage: `url(${Map})`}} 
+                    style={{backgroundImage: `url(${Snake})`}} 
                     className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
@@ -60,7 +63,7 @@ const Project = () => {
                     </div>
 
                     <div
-                    style={{backgroundImage: `url(${Map})`}} 
+                    style={{backgroundImage: `url(${Audio})`}} 
                     className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
