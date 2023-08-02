@@ -4,10 +4,17 @@ import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../assets/logo.png'
 import { Link } from 'react-scroll';
+import { saveAs } from 'file-saver';
+import Resume from '../assets/Jason-Resume.pdf'
+
+
 
 const NavBar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
+    const handleDownload = () => {
+        saveAs(Resume, 'Jason-Resume.pdf');
+      };
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300' >
@@ -96,13 +103,13 @@ const NavBar = () => {
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between justify-items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
                     <a  className='font-bold flex justify-between items-center w-full text-gray-300'
-                    href=''>
+                    href='contact'>
                         Email <HiOutlineMail size={30}/>
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between justify-items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
                     <a  className='font-bold flex justify-between items-center w-full text-gray-300'
-                    href='"C:\Users\Jason Tran\Documents\Resume (UPDATED).pdf"'>
+                    href='' onClick={handleDownload}>
                         Resume <BsFillPersonLinesFill size={30}/>
                     </a>
                 </li>

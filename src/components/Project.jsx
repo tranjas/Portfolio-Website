@@ -2,7 +2,7 @@ import React from 'react'
 import Map from '../assets/Map.jpg'
 import Portfolio from '../assets/Portfolio.png'
 import Snake from '../assets/Snakes.png'
-import Audio from '../assets/Audio.png'
+import Audio from '../assets/Jason-Resume.pdf'
 
 const Project = () => {
   return (
