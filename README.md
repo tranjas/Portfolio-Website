@@ -11,11 +11,16 @@ Tailwind CSS
 npm
 
 # Features
-### Home: Introduces myself and provides a brief summary of my skills and interests.
-### About: Presents more details about my background, education, and work experience.
-### Projects: Showcases a selection of my notable projects along with descriptions and links.
-### Skills: Lists the technologies and programming languages I am proficient in.
-### Contact: Allows visitors to get in touch with me through a contact form.
+### Home:
+Introduces myself and provides a brief summary of my skills and interests.
+### About: 
+Presents more details about my background, education, and work experience.
+### Projects: 
+Showcases a selection of my notable projects along with descriptions and links.
+### Skills: 
+Lists the technologies and programming languages I am proficient in.
+### Contact: 
+Allows visitors to get in touch with me through a contact form.
 
 # How to Use
 Clone the Repository: Clone this repository to your local machine using the following command:
