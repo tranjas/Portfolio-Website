@@ -3,7 +3,7 @@
 This is my personal portfolio website built using React and Tailwind CSS. It showcases my projects, skills, and experiences to provide visitors with an overview of my work and background.
 
 # Live Demo
-You can view the live demo of my portfolio website here.
+You can view the live demo of my portfolio website here. https://tranjas.github.io/Portfolio-Website/
 
 # Technologies Used
 React
